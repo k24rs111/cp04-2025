@@ -70,3 +70,25 @@
     body {
         background-color: skyblue;
     }
+
+    button {
+    color: blue;
+    font-family: Times;
+    border-radius: 20px;
+}
+
+/* 個別スタイル */
+#btnA {
+    background-color: yellow;
+    color: green;
+}
+
+#remain {
+    font-weight: bold;
+}
+
+#time {
+    box-shadow: 5px 5px 5px;
+    width: 50%;
+    margin: 0 auto;
+}
