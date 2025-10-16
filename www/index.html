@@ -209,8 +209,8 @@
         if (active) {
             etime = parseInt( (new Date() - startTime)/1000 );
             rest = period - etime;
-            $("#time").html("経過時間： " + etime);
-            $("#remain").html("残り時間： " + rest);
+            $("#time").html("経過時間： " + etime );
+            $("#remain").html("残り時間： " + rest  + "秒");
             analog(rest);
 
             if (rest <= 0) {
